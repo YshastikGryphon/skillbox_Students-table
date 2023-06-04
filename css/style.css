@@ -1,0 +1,54 @@
+.btn {
+  font-weight: inherit;
+}
+.add-student {
+  padding: 10px 20px;
+  background-color:Azure;
+  border-radius: 8px;
+}
+
+.student-filters {
+  padding: 10px 20px;
+  background-color:LavenderBlush;
+  border-radius: 8px;
+}
+
+.student-table {
+  padding: 10px 20px;
+  background-color:OldLace;
+  border-radius: 8px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.table-edit {
+  padding: .3rem !important;
+}
+.error {
+  position: relative;
+}
+
+.error-msg {
+  content: '';
+  position: absolute;
+  top: -18px;
+  left: 0;
+  color: crimson;
+  font-size: 14px;
+}
+
+.sort {
+  position: relative;
+}
+
+.sort--ascend::after {
+  content: '↑';
+  position: absolute;
+
+}
+.sort--descend::after {
+  content: '↓';
+  position: absolute;
+}
